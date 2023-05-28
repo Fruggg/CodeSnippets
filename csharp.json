@@ -1,0 +1,24 @@
+{
+	"Singleton": 
+	{
+		"prefix": "singleton",
+		"body": [
+			"//singleton",
+			"public static ${TM_FILENAME_BASE} _instance;",
+			"public ${TM_FILENAME_BASE} GetInstance()",
+			"{",
+			"if((_instance) is null)",
+			"{",
+			"   _instance = new ${TM_FILENAME_BASE}();",
+			"}",
+			"return _instance;",
+			"}"
+			
+
+			
+		],
+		"description": "Singleton ctor"
+	}
+
+	
+}
