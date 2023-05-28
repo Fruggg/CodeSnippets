@@ -5,7 +5,7 @@
 		"body": [
 			"//singleton",
 			"public static ${TM_FILENAME_BASE} _instance;",
-			"public ${TM_FILENAME_BASE} GetInstance()",
+			"public static ${TM_FILENAME_BASE} GetInstance()",
 			"{",
 			"if((_instance) is null)",
 			"{",
